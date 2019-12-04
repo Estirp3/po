@@ -1,10 +1,10 @@
 package TesT;
 
 
-import DriverFactory.BrowserFactory;
-import PO.BasePage;
-import PO.PaginaInicio;
-import PO.ProductoPO;
+
+import Pobjetc.BasePage;
+import Pobjetc.PaginaInicio;
+import Pobjetc.ProductoPO;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.BasicConfigurator;
 import org.junit.After;
@@ -22,7 +22,9 @@ public class TestInicio {
     ProductoPO prod;
     BasePage base;
 
-
+    /**
+     * Inicio de pruebas
+     */
     @Before
     public void inicio(){
         BasicConfigurator.configure();// log4g
